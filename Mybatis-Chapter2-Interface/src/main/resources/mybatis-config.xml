@@ -4,7 +4,7 @@
 <configuration>
     <!-- 别名 -->
     <typeAliases>
-        <typeAlias alias="User" type="com.dfz.mybatis.model.User"/>
+        <typeAlias alias="User" type="com.dfz.User"/>
     </typeAliases>
 
     <!-- 配置数据库参数 -->

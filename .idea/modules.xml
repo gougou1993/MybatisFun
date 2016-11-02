@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Mybatis-Chapter1/Mybatis-Chapter1.iml" filepath="$PROJECT_DIR$/Mybatis-Chapter1/Mybatis-Chapter1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Mybatis-Chapter2-Interface/Mybatis-Chapter2-Interface.iml" filepath="$PROJECT_DIR$/Mybatis-Chapter2-Interface/Mybatis-Chapter2-Interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mybatis-Chapter3-CRUD/Mybatis-Chapter3-CRUD.iml" filepath="$PROJECT_DIR$/Mybatis-Chapter3-CRUD/Mybatis-Chapter3-CRUD.iml" />
       <module fileurl="file://$PROJECT_DIR$/MybatisFun.iml" filepath="$PROJECT_DIR$/MybatisFun.iml" />
     </modules>
   </component>

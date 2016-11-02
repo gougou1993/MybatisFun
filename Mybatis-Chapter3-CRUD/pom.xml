@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>Mybatis-Chapter2</artifactId>
+    <artifactId>Mybatis-Chapter3-CRUD</artifactId>
 
 
 </project>
