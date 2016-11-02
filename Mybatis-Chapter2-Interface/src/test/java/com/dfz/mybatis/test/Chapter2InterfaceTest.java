@@ -19,7 +19,7 @@ public class Chapter2InterfaceTest {
 
     private SqlSessionFactory sqlSessionFactory;
     private Reader reader;
-
+    //test
     @Before
     public void before() {
         try {
