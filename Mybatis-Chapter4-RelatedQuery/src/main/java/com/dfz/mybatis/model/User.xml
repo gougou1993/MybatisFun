@@ -11,22 +11,23 @@
     </resultMap>
     
     <resultMap id="resultUserArticleList" type="Article">
-        <id property="id" column="id"/>
+        <id property="id" column="aid"/>
         <result property="content" column="content"/>
         <result property="title" column="title"/>
+        <!-- -->
+        <!--<association property="user" javaType="User">-->
+            <!--<id property="id" column="id"/>-->
+            <!--<result property="username" column="username"/>-->
+            <!--<result property="password" column="password"/>-->
+            <!--<result property="address" column="address"/>-->
+        <!--</association>-->
 
-        <association property="user" javaType="User">
-            <id property="id" column="id"/>
-            <result property="username" column="username"/>
-            <result property="password" column="password"/>
-            <result property="address" column="address"/>
-        </association>
+        <association property="user" javaType="User" resultMap="resultListUser"/>
     </resultMap>
     
     <select id="getUserArticles" parameterType="int" resultMap="resultUserArticleList">
-        SELECT user.id, user.username, user.password, user.address, article.id as aid, article.title,
-         article.content from user,article
-         where user.id=article.userid
+         select user.id,user.username,user.address,user.password,article.id as aid,article.title,article.content from user,article
+              where user.id=article.userid and user.id=#{id}
     </select>
 
     <select id="selectUserByID" parameterType="int" resultType="User">
