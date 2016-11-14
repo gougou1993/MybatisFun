@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="5874de29-0918-424c-8c9a-218933df8180" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mybatis-Chapter1/src/test/resources/mybatis-config.xml" afterPath="$PROJECT_DIR$/Mybatis-Chapter1/src/test/resources/mybatis-config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mybatis-Chapter1/target/classes/mybatis-config.xml" afterPath="$PROJECT_DIR$/Mybatis-Chapter1/target/classes/mybatis-config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mybatis-Chapter1/target/test-classes/mybatis-config.xml" afterPath="$PROJECT_DIR$/Mybatis-Chapter1/target/test-classes/mybatis-config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mybatis-Chapter2-Interface/src/main/java/com/dfz/mybatis/model/User.xml" afterPath="$PROJECT_DIR$/Mybatis-Chapter2-Interface/src/main/java/com/dfz/mybatis/model/User.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mybatis-Chapter2-Interface/src/test/resources/mybatis-config.xml" afterPath="$PROJECT_DIR$/Mybatis-Chapter2-Interface/src/test/resources/mybatis-config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mybatis-Chapter2-Interface/target/classes/mybatis-config.xml" afterPath="$PROJECT_DIR$/Mybatis-Chapter2-Interface/target/classes/mybatis-config.xml" />
     </list>
     <ignored path="MybatisFun.iws" />
@@ -56,12 +55,54 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Chapter2InterfaceTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Chapter2InterfaceTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Mybatis-Chapter2-Interface/src/test/java/com/dfz/mybatis/test/Chapter2InterfaceTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="257">
               <caret line="37" column="41" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mybatis-config.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Mybatis-Chapter1/src/test/resources/mybatis-config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3">
+              <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mybatis-config.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Mybatis-Chapter1/src/main/resources/mybatis-config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Mybatis-Chapter1/src/main/java/com/dfz/mybatis/model/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Mybatis-Chapter1/src/main/java/com/dfz/mybatis/model/User.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+              <folding>
+                <marker date="1479087117000" expanded="true" signature="289:324" ph="select * fro... user" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -99,7 +140,6 @@
         <option value="$PROJECT_DIR$/Mybatis-Chapter1/src/main/java/com/dfz/mybatis/model/User.java" />
         <option value="$PROJECT_DIR$/Mybatis-Chapter1/src/test/java/com/dfz/mybatis/test/Chapter1Test.java" />
         <option value="$PROJECT_DIR$/Mybatis-Chapter1/src/main/resources/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/Mybatis-Chapter1/src/test/resources/mybatis-config.xml" />
         <option value="$PROJECT_DIR$/Mybatis-Chapter2-Interface/src/test/java/test/Chapter1Test.java" />
         <option value="$PROJECT_DIR$/Mybatis-Chapter2-Interface/src/test/java/com/dfz/mybatis/test/Chapter1Test.java" />
         <option value="$PROJECT_DIR$/Mybatis-Chapter2-Interface/src/main/java/com/dfz/mybatis/mapper/UserMapper.java" />
@@ -123,6 +163,7 @@
         <option value="$PROJECT_DIR$/Mybatis-Chapter1/src/main/java/com/dfz/mybatis/model/User.xml" />
         <option value="$PROJECT_DIR$/Mybatis-Chapter2-Interface/src/main/java/com/dfz/mybatis/model/User.xml" />
         <option value="$PROJECT_DIR$/Mybatis-Chapter2-Interface/src/test/resources/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/Mybatis-Chapter1/src/test/resources/mybatis-config.xml" />
       </list>
     </option>
   </component>
@@ -458,6 +499,44 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MybatisFun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MybatisFun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mybatis-Chapter1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1028,7 +1107,7 @@
       <workItem from="1478055096780" duration="2622000" />
       <workItem from="1478059092179" duration="7430000" />
       <workItem from="1478069505722" duration="7138000" />
-      <workItem from="1479086308814" duration="848000" />
+      <workItem from="1479086308814" duration="910000" />
     </task>
     <task id="LOCAL-00001" summary="加入注释">
       <created>1478062251306</created>
@@ -1079,7 +1158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1479086377689</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="修正bug">
+      <created>1479087234043</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1479087234043</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1115,7 +1201,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18038000" />
+    <option name="totallyTimeSpent" value="18100000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="727" extended-state="6" />
@@ -1127,7 +1213,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4958949" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7816092" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1181,7 +1267,8 @@
     <MESSAGE value="测试" />
     <MESSAGE value="添加Chapter2" />
     <MESSAGE value="添加Chapter3" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加Chapter3" />
+    <MESSAGE value="修正bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="修正bug" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1345,21 +1432,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="37" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mybatis-Chapter1/src/main/java/com/dfz/mybatis/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mybatis-Chapter1/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -1600,28 +1672,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mybatis-Chapter1/src/main/java/com/dfz/mybatis/model/User.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
-          <folding>
-            <marker date="1479087117000" expanded="true" signature="289:324" ph="select * fro... user" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Mybatis-Chapter1/src/test/java/com/dfz/mybatis/test/Chapter1Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mybatis-Chapter1/src/test/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -1648,6 +1702,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="257">
           <caret line="37" column="41" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mybatis-Chapter1/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mybatis-Chapter1/src/main/java/com/dfz/mybatis/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mybatis-Chapter1/src/main/java/com/dfz/mybatis/model/User.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding>
+            <marker date="1479087117000" expanded="true" signature="289:324" ph="select * fro... user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mybatis-Chapter1/src/test/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
           <folding />
         </state>
       </provider>
