@@ -13,9 +13,12 @@
         <module>Mybatis-Chapter2-Interface</module>
         <module>Mybatis-Chapter3-CRUD</module>
         <module>Mybatis-Chapter4-RelatedQuery</module>
-        <module>IntegrateSpring</module>
         <module>Mybatis-Chapter5-IntegrateSpring</module>
     </modules>
+
+    <properties>
+        <mybatis.version>3.4.1</mybatis.version>
+    </properties>
 
     <build>
         <resources>
@@ -40,7 +43,7 @@
         <dependency>
             <groupId>org.mybatis</groupId>
             <artifactId>mybatis</artifactId>
-            <version>3.4.1</version>
+            <version>${mybatis.version}</version>
         </dependency>
 
         <dependency>
