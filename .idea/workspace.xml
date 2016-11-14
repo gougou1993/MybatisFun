@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5874de29-0918-424c-8c9a-218933df8180" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_generator_mybatis_generator_core_1_3_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mybatis-Chapter8-Generator/Mybatis-Chapter8-Generator.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mybatis-Chapter8-Generator/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mybatis-Chapter8-Generator/src/main/resources/generatorConfig.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mybatis-Chapter7-DynamicSQL/Mybatis-Chapter7-DynamicSQL.iml" afterPath="$PROJECT_DIR$/Mybatis-Chapter7-DynamicSQL/Mybatis-Chapter7-DynamicSQL.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mybatis-Chapter7-DynamicSQL/pom.xml" afterPath="$PROJECT_DIR$/Mybatis-Chapter7-DynamicSQL/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mybatis-Chapter7-DynamicSQL/src/main/java/com/dfz/mybatis/mapper/Blog.xml" afterPath="$PROJECT_DIR$/Mybatis-Chapter7-DynamicSQL/src/main/java/com/dfz/mybatis/mapper/Blog.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mybatis-Chapter7-DynamicSQL/src/main/java/com/dfz/mybatis/mapper/BlogMapper.java" afterPath="$PROJECT_DIR$/Mybatis-Chapter7-DynamicSQL/src/main/java/com/dfz/mybatis/mapper/BlogMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mybatis-Chapter7-DynamicSQL/src/test/java/com/dfz/mybatis/test/Chapter7DynamicSQL.java" afterPath="$PROJECT_DIR$/Mybatis-Chapter7-DynamicSQL/src/test/java/com/dfz/mybatis/test/Chapter7DynamicSQL.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="MybatisFun.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -358,20 +346,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="MybatisFun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MybatisFun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MybatisFun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mybatis-Chapter8-Generator" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1084,7 +1058,7 @@
       <workItem from="1478069505722" duration="7138000" />
       <workItem from="1479086308814" duration="15046000" />
       <workItem from="1479104188209" duration="33000" />
-      <workItem from="1479104265255" duration="1995000" />
+      <workItem from="1479104265255" duration="2018000" />
     </task>
     <task id="LOCAL-00001" summary="加入注释">
       <created>1478062251306</created>
@@ -1191,7 +1165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1479103274703</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="添加Chapter8">
+      <created>1479106681723</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1479106681723</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1227,7 +1208,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34264000" />
+    <option name="totallyTimeSpent" value="34287000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="6" y="23" width="1280" height="727" extended-state="6" />
@@ -1302,7 +1283,8 @@
     <MESSAGE value="添加Chapter6-IntegrateSpringMVC" />
     <MESSAGE value="添加Chapter7-DynamicSQL" />
     <MESSAGE value="修正bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="修正bug" />
+    <MESSAGE value="添加Chapter8" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加Chapter8" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
