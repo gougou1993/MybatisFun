@@ -14,6 +14,7 @@
         <module>Mybatis-Chapter3-CRUD</module>
         <module>Mybatis-Chapter4-RelatedQuery</module>
         <module>Mybatis-Chapter5-IntegrateSpring</module>
+        <module>Mybatis-Chapter6-IntegrateSpringMVC</module>
     </modules>
 
     <properties>
