@@ -24,7 +24,7 @@
 
         <association property="user" javaType="User" resultMap="resultListUser"/>
     </resultMap>
-    
+
     <select id="getUserArticles" parameterType="int" resultMap="resultUserArticleList">
          select user.id,user.username,user.address,user.password,article.id as aid,article.title,article.content from user,article
               where user.id=article.userid and user.id=#{id}

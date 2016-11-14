@@ -13,6 +13,8 @@
         <module>Mybatis-Chapter2-Interface</module>
         <module>Mybatis-Chapter3-CRUD</module>
         <module>Mybatis-Chapter4-RelatedQuery</module>
+        <module>IntegrateSpring</module>
+        <module>Mybatis-Chapter5-IntegrateSpring</module>
     </modules>
 
     <build>

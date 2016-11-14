@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5874de29-0918-424c-8c9a-218933df8180" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mybatis-Chapter5-IntegrateSpring/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mybatis-Chapter4-RelatedQuery/src/main/java/com/dfz/mybatis/model/User.xml" afterPath="$PROJECT_DIR$/Mybatis-Chapter4-RelatedQuery/src/main/java/com/dfz/mybatis/model/User.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="MybatisFun.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -14,6 +16,8 @@
     <ignored path="$PROJECT_DIR$/Mybatis-Chapter2-Interface/target/" />
     <ignored path="$PROJECT_DIR$/Mybatis-Chapter3-CRUD/target/" />
     <ignored path="$PROJECT_DIR$/Mybatis-Chapter4-RelatedQuery/target/" />
+    <ignored path="$PROJECT_DIR$/IntegrateSpring/target/" />
+    <ignored path="$PROJECT_DIR$/Mybatis-Chapter5-IntegrateSpring/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,19 +34,96 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="User.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="User.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Mybatis-Chapter4-RelatedQuery/src/main/java/com/dfz/mybatis/model/User.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            <state relative-caret-position="180">
+              <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="29" selection-end-column="60" />
               <folding>
-                <marker date="1479090254000" expanded="true" signature="1251:1433" ph="select user.... user" />
-                <marker date="1479090254000" expanded="true" signature="1528:1563" ph="select * fro... user" />
-                <marker date="1479090254000" expanded="true" signature="1670:1720" ph="SELECT * FRO... USER" />
-                <marker date="1479090254000" expanded="true" signature="1832:1923" ph="insert into user... " />
-                <marker date="1479090254000" expanded="true" signature="1997:2090" ph="update user " />
-                <marker date="1479090254000" expanded="true" signature="2163:2194" ph="DELETE from " />
+                <marker date="1479090917000" expanded="true" signature="1247:1429" ph="select user.... user" />
+                <marker date="1479090917000" expanded="true" signature="1524:1559" ph="select * fro... user" />
+                <marker date="1479090917000" expanded="true" signature="1666:1716" ph="SELECT * FRO... USER" />
+                <marker date="1479090917000" expanded="true" signature="1828:1919" ph="insert into user... " />
+                <marker date="1479090917000" expanded="true" signature="1993:2086" ph="update user " />
+                <marker date="1479090917000" expanded="true" signature="2159:2190" ph="DELETE from " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Mybatis-Chapter5-IntegrateSpring/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Article.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Mybatis-Chapter4-RelatedQuery/src/main/java/com/dfz/mybatis/model/Article.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-459">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="52" selection-end-column="1" />
+              <folding>
+                <element signature="e#236#237#0" expanded="true" />
+                <element signature="e#261#262#0" expanded="true" />
+                <element signature="e#294#295#0" expanded="true" />
+                <element signature="e#322#323#0" expanded="true" />
+                <element signature="e#351#352#0" expanded="true" />
+                <element signature="e#378#379#0" expanded="true" />
+                <element signature="e#416#417#0" expanded="true" />
+                <element signature="e#448#449#0" expanded="true" />
+                <element signature="e#480#481#0" expanded="true" />
+                <element signature="e#508#509#0" expanded="true" />
+                <element signature="e#550#551#0" expanded="true" />
+                <element signature="e#584#585#0" expanded="true" />
+                <element signature="e#618#619#0" expanded="true" />
+                <element signature="e#648#649#0" expanded="true" />
+                <element signature="e#694#695#0" expanded="true" />
+                <element signature="e#732#733#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Mybatis-Chapter4-RelatedQuery/src/main/java/com/dfz/mybatis/mapper/UserMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mybatis-chapter4.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Mybatis-Chapter4-RelatedQuery/sql/mybatis-chapter4.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mybatis-config.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Mybatis-Chapter4-RelatedQuery/src/test/resources/mybatis-config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Chapter4RelatedQuery.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Mybatis-Chapter4-RelatedQuery/src/test/java/com/dfz/mybatis/test/Chapter4RelatedQuery.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="28" column="53" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -95,7 +176,6 @@
         <option value="$PROJECT_DIR$/Mybatis-Chapter3-CRUD/src/main/java/com/dfz/mybatis/mapper/UserMapper.java" />
         <option value="$PROJECT_DIR$/Mybatis-Chapter3-CRUD/src/main/java/com/dfz/mybatis/model/User.xml" />
         <option value="$PROJECT_DIR$/Mybatis-Chapter3-CRUD/src/test/java/com/dfz/mybatis/test/Chapter3CRUD.java" />
-        <option value="$PROJECT_DIR$/Mybatis-Chapter4-RelatedQuery/src/main/java/com/dfz/mybatis/model/Article.java" />
         <option value="$PROJECT_DIR$/Mybatis-Chapter4-RelatedQuery/src/main/java/com/dfz/mybatis/mapper/UserMapper.java" />
         <option value="$PROJECT_DIR$/Mybatis-Chapter4-RelatedQuery/src/test/resources/mybatis-config.xml" />
         <option value="$PROJECT_DIR$/Mybatis-Chapter1/src/main/java/com/dfz/mybatis/model/User.xml" />
@@ -103,6 +183,7 @@
         <option value="$PROJECT_DIR$/Mybatis-Chapter1/src/test/resources/mybatis-config.xml" />
         <option value="$PROJECT_DIR$/Mybatis-Chapter2-Interface/src/main/java/com/dfz/mybatis/model/User.xml" />
         <option value="$PROJECT_DIR$/Mybatis-Chapter4-RelatedQuery/src/test/java/com/dfz/mybatis/test/Chapter4RelatedQuery.java" />
+        <option value="$PROJECT_DIR$/Mybatis-Chapter4-RelatedQuery/src/main/java/com/dfz/mybatis/model/Article.java" />
         <option value="$PROJECT_DIR$/Mybatis-Chapter4-RelatedQuery/src/main/java/com/dfz/mybatis/model/User.xml" />
       </list>
     </option>
@@ -192,8 +273,17 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Mybatis-Chapter2-Interface/src/main/java/com/dfz/mybatis/model" />
+      <recent name="$PROJECT_DIR$/Mybatis-Chapter1/src/test" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.dfz.mybatis.test" />
+      <recent name="com.dfz.mybatis.mapper" />
+      <recent name="test" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Mybatis-Chapter4-RelatedQuery/src/main/java/com/dfz/mybatis/model" />
@@ -202,17 +292,8 @@
       <recent name="$PROJECT_DIR$/Mybatis-Chapter3-CRUD/src/main/java" />
       <recent name="$PROJECT_DIR$/Mybatis-Chapter3-CRUD" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.dfz.mybatis.test" />
-      <recent name="com.dfz.mybatis.mapper" />
-      <recent name="test" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Mybatis-Chapter2-Interface/src/main/java/com/dfz/mybatis/model" />
-      <recent name="$PROJECT_DIR$/Mybatis-Chapter1/src/test" />
-    </key>
   </component>
-  <component name="RunManager" selected="JUnit.Chapter4RelatedQuery.test">
+  <component name="RunManager" selected="JUnit.Chapter4RelatedQuery">
     <configuration default="false" name="Chapter2InterfaceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -719,8 +800,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.Chapter4RelatedQuery.test" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.Chapter4RelatedQuery" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.Chapter4RelatedQuery" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.Chapter4RelatedQuery.test" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.Chapter3CRUD" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.Chapter2InterfaceTest" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.Chapter1Test.test" />
@@ -743,7 +824,7 @@
       <workItem from="1478055096780" duration="2622000" />
       <workItem from="1478059092179" duration="7430000" />
       <workItem from="1478069505722" duration="7138000" />
-      <workItem from="1479086308814" duration="3806000" />
+      <workItem from="1479086308814" duration="4845000" />
     </task>
     <task id="LOCAL-00001" summary="加入注释">
       <created>1478062251306</created>
@@ -808,13 +889,17 @@
       <option name="project" value="LOCAL" />
       <updated>1479087277268</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="修正bug">
+      <created>1479090382671</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1479090382671</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Chapter4RelatedQuery - 2016.11.14 at 10h 14m 27s.xml">
-      <configuration name="Chapter4RelatedQuery" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Chapter4RelatedQuery - 2016.11.14 at 10h 15m 04s.xml">
       <configuration name="Chapter4RelatedQuery" configurationId="JUnit" />
     </history-entry>
@@ -822,6 +907,9 @@
       <configuration name="Chapter4RelatedQuery" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Chapter4RelatedQuery - 2016.11.14 at 10h 18m 19s.xml">
+      <configuration name="Chapter4RelatedQuery" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Chapter4RelatedQuery - 2016.11.14 at 10h 35m 26s.xml">
       <configuration name="Chapter4RelatedQuery" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Chapter4RelatedQuery_test - 2016.11.14 at 10h 18m 35s.xml">
@@ -844,7 +932,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20996000" />
+    <option name="totallyTimeSpent" value="22035000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="727" extended-state="6" />
@@ -856,7 +944,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4958949" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7816092" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33825943" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.54679805" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -922,30 +1010,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Mybatis-Chapter4-RelatedQuery/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mybatis-Chapter4-RelatedQuery/src/main/java/com/dfz/mybatis/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mybatis-Chapter4-RelatedQuery/src/main/java/com/dfz/mybatis/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Mybatis-Chapter4-RelatedQuery/src/test/java/com/dfz/mybatis/test/Chapter4RelatedQuery.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -959,12 +1023,12 @@
         <state relative-caret-position="390">
           <caret line="26" column="85" selection-start-line="26" selection-start-column="85" selection-end-line="26" selection-end-column="85" />
           <folding>
-            <marker date="1479090254000" expanded="true" signature="1251:1433" ph="select user.... user" />
-            <marker date="1479090254000" expanded="true" signature="1528:1563" ph="select * fro... user" />
-            <marker date="1479090254000" expanded="true" signature="1670:1720" ph="SELECT * FRO... USER" />
-            <marker date="1479090254000" expanded="true" signature="1832:1923" ph="insert into user... " />
-            <marker date="1479090254000" expanded="true" signature="1997:2090" ph="update user " />
-            <marker date="1479090254000" expanded="true" signature="2163:2194" ph="DELETE from " />
+            <marker date="1479090917000" expanded="true" signature="1247:1429" ph="select user.... user" />
+            <marker date="1479090917000" expanded="true" signature="1524:1559" ph="select * fro... user" />
+            <marker date="1479090917000" expanded="true" signature="1666:1716" ph="SELECT * FRO... USER" />
+            <marker date="1479090917000" expanded="true" signature="1828:1919" ph="insert into user... " />
+            <marker date="1479090917000" expanded="true" signature="1993:2086" ph="update user " />
+            <marker date="1479090917000" expanded="true" signature="2159:2190" ph="DELETE from " />
           </folding>
         </state>
       </provider>
@@ -981,24 +1045,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-          <folding>
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#261#262#0" expanded="true" />
-            <element signature="e#294#295#0" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
-            <element signature="e#508#509#0" expanded="true" />
-            <element signature="e#550#551#0" expanded="true" />
-            <element signature="e#584#585#0" expanded="true" />
-            <element signature="e#618#619#0" expanded="true" />
-            <element signature="e#648#649#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
-            <element signature="e#732#733#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1181,14 +1228,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mybatis-Chapter4-RelatedQuery/src/test/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Mybatis-Chapter3-CRUD/src/test/resources/mybatis-config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -1333,16 +1372,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Mybatis-Chapter4-RelatedQuery/src/main/java/com/dfz/mybatis/model/Article.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="-459">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="52" selection-end-column="1" />
+          <folding>
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+            <element signature="e#694#695#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Mybatis-Chapter4-RelatedQuery/src/main/java/com/dfz/mybatis/mapper/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="231">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mybatis-Chapter4-RelatedQuery/sql/mybatis-chapter4.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -1350,23 +1414,47 @@
     <entry file="file://$PROJECT_DIR$/Mybatis-Chapter4-RelatedQuery/src/test/java/com/dfz/mybatis/test/Chapter4RelatedQuery.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
-          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+          <caret line="28" column="53" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mybatis-Chapter4-RelatedQuery/src/test/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Mybatis-Chapter4-RelatedQuery/src/main/java/com/dfz/mybatis/model/User.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        <state relative-caret-position="180">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="29" selection-end-column="60" />
           <folding>
-            <marker date="1479090254000" expanded="true" signature="1251:1433" ph="select user.... user" />
-            <marker date="1479090254000" expanded="true" signature="1528:1563" ph="select * fro... user" />
-            <marker date="1479090254000" expanded="true" signature="1670:1720" ph="SELECT * FRO... USER" />
-            <marker date="1479090254000" expanded="true" signature="1832:1923" ph="insert into user... " />
-            <marker date="1479090254000" expanded="true" signature="1997:2090" ph="update user " />
-            <marker date="1479090254000" expanded="true" signature="2163:2194" ph="DELETE from " />
+            <marker date="1479090917000" expanded="true" signature="1247:1429" ph="select user.... user" />
+            <marker date="1479090917000" expanded="true" signature="1524:1559" ph="select * fro... user" />
+            <marker date="1479090917000" expanded="true" signature="1666:1716" ph="SELECT * FRO... USER" />
+            <marker date="1479090917000" expanded="true" signature="1828:1919" ph="insert into user... " />
+            <marker date="1479090917000" expanded="true" signature="1993:2086" ph="update user " />
+            <marker date="1479090917000" expanded="true" signature="2159:2190" ph="DELETE from " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntegrateSpring/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mybatis-Chapter5-IntegrateSpring/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
