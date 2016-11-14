@@ -25,12 +25,14 @@
         <module name="Mybatis-Chapter1" />
         <module name="Mybatis-Chapter2-Interface" />
         <module name="Mybatis-Chapter3-CRUD" />
+        <module name="Mybatis-Chapter4-RelatedQuery" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Mybatis-Chapter1" target="1.5" />
       <module name="Mybatis-Chapter2-Interface" target="1.5" />
       <module name="Mybatis-Chapter3-CRUD" target="1.5" />
+      <module name="Mybatis-Chapter4-RelatedQuery" target="1.5" />
       <module name="MybatisFun" target="1.5" />
     </bytecodeTargetLevel>
   </component>

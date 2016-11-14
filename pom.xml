@@ -12,6 +12,7 @@
         <module>Mybatis-Chapter1</module>
         <module>Mybatis-Chapter2-Interface</module>
         <module>Mybatis-Chapter3-CRUD</module>
+        <module>Mybatis-Chapter4-RelatedQuery</module>
     </modules>
 
     <build>
