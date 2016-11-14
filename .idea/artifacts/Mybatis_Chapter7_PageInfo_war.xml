@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Mybatis-Chapter7-PageInfo:war">
+    <output-path>$PROJECT_DIR$/Mybatis-Chapter7-PageInfo/target</output-path>
+    <root id="archive" name="Mybatis-Chapter7-PageInfo.war">
+      <element id="artifact" artifact-name="Mybatis-Chapter7-PageInfo:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -28,6 +28,7 @@
         <module name="Mybatis-Chapter4-RelatedQuery" />
         <module name="Mybatis-Chapter5-IntegrateSpring" />
         <module name="Mybatis-Chapter6-IntegrateSpringMVC" />
+        <module name="Mybatis-Chapter8-DynamicSQL" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -38,6 +39,8 @@
       <module name="Mybatis-Chapter4-RelatedQuery" target="1.5" />
       <module name="Mybatis-Chapter5-IntegrateSpring" target="1.5" />
       <module name="Mybatis-Chapter6-IntegrateSpringMVC" target="1.5" />
+      <module name="Mybatis-Chapter7-PageInfo" target="1.5" />
+      <module name="Mybatis-Chapter8-DynamicSQL" target="1.5" />
       <module name="MybatisFun" target="1.5" />
     </bytecodeTargetLevel>
   </component>

@@ -5,6 +5,7 @@
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/Mybatis-Chapter6-IntegrateSpringMVC" />
+    <file type="web" url="file://$PROJECT_DIR$/Mybatis-Chapter7-PageInfo" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -15,6 +16,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/IntegrateSpring/pom.xml" />
+        <option value="$PROJECT_DIR$/Mybatis-Chapter7-PageInfo/pom.xml" />
       </set>
     </option>
   </component>
