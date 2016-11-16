@@ -30,6 +30,7 @@
         <module name="Mybatis-Chapter6-IntegrateSpringMVC" />
         <module name="Mybatis-Chapter7-DynamicSQL" />
         <module name="Mybatis-Chapter8-Generator" />
+        <module name="Mybatis-Chapter9-GeneratorPlugin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -42,6 +43,7 @@
       <module name="Mybatis-Chapter6-IntegrateSpringMVC" target="1.5" />
       <module name="Mybatis-Chapter7-DynamicSQL" target="1.5" />
       <module name="Mybatis-Chapter8-Generator" target="1.5" />
+      <module name="Mybatis-Chapter9-GeneratorPlugin" target="1.5" />
       <module name="MybatisFun" target="1.5" />
     </bytecodeTargetLevel>
   </component>

@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/Mybatis-Chapter6-IntegrateSpringMVC/Mybatis-Chapter6-IntegrateSpringMVC.iml" filepath="$PROJECT_DIR$/Mybatis-Chapter6-IntegrateSpringMVC/Mybatis-Chapter6-IntegrateSpringMVC.iml" />
       <module fileurl="file://$PROJECT_DIR$/Mybatis-Chapter7-DynamicSQL/Mybatis-Chapter7-DynamicSQL.iml" filepath="$PROJECT_DIR$/Mybatis-Chapter7-DynamicSQL/Mybatis-Chapter7-DynamicSQL.iml" />
       <module fileurl="file://$PROJECT_DIR$/Mybatis-Chapter8-Generator/Mybatis-Chapter8-Generator.iml" filepath="$PROJECT_DIR$/Mybatis-Chapter8-Generator/Mybatis-Chapter8-Generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mybatis-Chapter9-GeneratorPlugin/Mybatis-Chapter9-GeneratorPlugin.iml" filepath="$PROJECT_DIR$/Mybatis-Chapter9-GeneratorPlugin/Mybatis-Chapter9-GeneratorPlugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/MybatisFun.iml" filepath="$PROJECT_DIR$/MybatisFun.iml" />
     </modules>
   </component>

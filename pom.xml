@@ -17,6 +17,7 @@
         <module>Mybatis-Chapter6-IntegrateSpringMVC</module>
         <module>Mybatis-Chapter7-DynamicSQL</module>
         <module>Mybatis-Chapter8-Generator</module>
+        <module>Mybatis-Chapter9-GeneratorPlugin</module>
     </modules>
 
     <properties>
