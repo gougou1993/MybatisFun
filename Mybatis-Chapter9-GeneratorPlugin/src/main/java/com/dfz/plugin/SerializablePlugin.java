@@ -7,6 +7,7 @@ import org.mybatis.generator.api.IntrospectedTable;
 import org.mybatis.generator.api.PluginAdapter;
 import org.mybatis.generator.api.dom.java.FullyQualifiedJavaType;
 import org.mybatis.generator.api.dom.java.TopLevelClass;
+import org.mybatis.generator.api.dom.xml.XmlElement;
 
 /**
  * @author ShenHuaJie
@@ -37,6 +38,11 @@ public class SerializablePlugin extends PluginAdapter {
     }
 
     @Override
+    public boolean sqlMapSelectAllElementGenerated(XmlElement element, IntrospectedTable introspectedTable) {
+        return super.sqlMapSelectAllElementGenerated(element, introspectedTable);
+    }
+
+    @Override
     public boolean modelPrimaryKeyClassGenerated(TopLevelClass topLevelClass, IntrospectedTable introspectedTable) {
         makeSerializable(topLevelClass, introspectedTable);
         return true;
@@ -48,6 +54,8 @@ public class SerializablePlugin extends PluginAdapter {
         makeSerializable(topLevelClass, introspectedTable);
         return true;
     }
+
+
 
     protected void makeSerializable(TopLevelClass topLevelClass, IntrospectedTable introspectedTable) {
         if (topLevelClass.getSuperClass() != null) {

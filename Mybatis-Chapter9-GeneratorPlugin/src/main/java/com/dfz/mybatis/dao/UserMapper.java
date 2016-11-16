@@ -1,17 +1,10 @@
 package com.dfz.mybatis.dao;
 
+import com.dfz.base.BaseMapper;
 import com.dfz.mybatis.model.User;
 
-public interface UserMapper {
-    int deleteByPrimaryKey(Integer id);
-
-    int insert(User record);
-
-    int insertSelective(User record);
-
-    User selectByPrimaryKey(Integer id);
-
-    int updateByPrimaryKeySelective(User record);
-
-    int updateByPrimaryKey(User record);
+/**
+ * 由MyBatis Generator工具自动生成，请不要手动修改
+ */
+public interface UserMapper extends BaseMapper<User> {
 }

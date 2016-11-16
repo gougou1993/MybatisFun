@@ -8,12 +8,12 @@
 
     <context id="default" targetRuntime="MyBatis3">
         
-        <!--<plugin type="org.mybatis.generator.plugins.ToStringPlugin"/>-->
-        <!--<plugin type="org.mybatis.generator.plugins.EqualsHashCodePlugin"/>-->
-        <!--<plugin type="com.dfz.plugin.MapperPlugin">-->
-            <!--<property name="targetProject" value="../Mybatis-Chapter9-GeneratorPlugin/src/main/java"/>-->
-            <!--<property name="targetPackage" value="com.dfz.mybatis.dao"/>-->
-        <!--</plugin>-->
+        <plugin type="org.mybatis.generator.plugins.ToStringPlugin"/>
+        <plugin type="org.mybatis.generator.plugins.EqualsHashCodePlugin"/>
+        <plugin type="com.dfz.plugin.MapperPlugin">
+            <property name="targetProject" value="../Mybatis-Chapter9-GeneratorPlugin/src/main/java"/>
+            <property name="targetPackage" value="com.dfz.mybatis.dao"/>
+        </plugin>
         <plugin type="com.dfz.plugin.SerializablePlugin"/>
 
         <!-- 为了防止生成的代码中有很多注释，比较难看，加入下面的配置控制 -->
@@ -49,13 +49,14 @@
         <!-- 在ibatis2 中是dao层，但在mybatis3中，其实就是mapper接口 -->
         <javaClientGenerator type="XMLMAPPER" targetPackage="com.dfz.mybatis.dao"  targetProject="src/main/java">
             <property name="enableSubPackages" value="true" />
+            <property name="rootInterface" value="com.dfz.base.BaseMapper"/>
         </javaClientGenerator>
 
         <!-- 要对那些数据表进行生成操作，必须要有一个. -->
-        <table schema="mybatis-chapter1" tableName="user" domainObjectName="User"
+        <table tableName="user" enableSelectByExample="false" enableDeleteByExample="false"
                enableCountByExample="false" enableUpdateByExample="false"
-               enableDeleteByExample="false" enableSelectByExample="false"
                selectByExampleQueryId="false">
+
         </table>
 
     </context>

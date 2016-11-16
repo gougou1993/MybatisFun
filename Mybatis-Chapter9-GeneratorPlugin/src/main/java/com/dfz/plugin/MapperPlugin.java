@@ -15,6 +15,10 @@ import org.mybatis.generator.api.dom.java.CompilationUnit;
 import org.mybatis.generator.api.dom.java.FullyQualifiedJavaType;
 import org.mybatis.generator.api.dom.java.Interface;
 import org.mybatis.generator.api.dom.java.JavaVisibility;
+import org.mybatis.generator.api.dom.xml.Attribute;
+import org.mybatis.generator.api.dom.xml.Document;
+import org.mybatis.generator.api.dom.xml.TextElement;
+import org.mybatis.generator.api.dom.xml.XmlElement;
 import org.mybatis.generator.exception.ShellException;
 import org.mybatis.generator.internal.DefaultShellCallback;
 
@@ -66,6 +70,19 @@ public class MapperPlugin extends PluginAdapter {
             expandDaoSuperClass = DEFAULT_EXPAND_DAO_SUPER_CLASS;
         }
         return valid && valid2;
+    }
+
+    @Override
+    public boolean sqlMapDocumentGenerated(Document document, IntrospectedTable introspectedTable) {
+        XmlElement select = new XmlElement("select");
+        select.addAttribute(new Attribute("id", "selectAll"));
+        select.addAttribute(new Attribute("resultMap", "BaseResultMap"));
+        select.addAttribute(new Attribute("parameterType", introspectedTable.getBaseRecordType()));
+        select.addElement(new TextElement(" select * from "+ introspectedTable.getFullyQualifiedTableNameAtRuntime()));
+
+        XmlElement parentElement = document.getRootElement();
+        parentElement.addElement(select);
+        return super.sqlMapDocumentGenerated(document, introspectedTable);
     }
 
     public List<GeneratedJavaFile> contextGenerateAdditionalJavaFiles(IntrospectedTable introspectedTable) {

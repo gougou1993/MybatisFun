@@ -79,4 +79,7 @@
       address = #{address,jdbcType=VARCHAR}
     where id = #{id,jdbcType=INTEGER}
   </update>
+  <select id="selectAll" resultMap="BaseResultMap" parameterType="com.dfz.mybatis.model.User" >
+     select * from user
+  </select>
 </mapper>
