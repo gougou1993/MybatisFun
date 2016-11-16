@@ -7,13 +7,16 @@
     <classPathEntry location="/Users/zhangsiyuan/.m2/repository/mysql/mysql-connector-java/5.1.39/mysql-connector-java-5.1.39.jar" />
 
     <context id="default" targetRuntime="MyBatis3">
-        
+        <!-- 自动生成toString方法 -->
         <plugin type="org.mybatis.generator.plugins.ToStringPlugin"/>
+        <!-- 自动生成equals方法和hashcode方法 -->
         <plugin type="org.mybatis.generator.plugins.EqualsHashCodePlugin"/>
+        <!-- 自定义方法 -->
         <plugin type="com.dfz.plugin.MapperPlugin">
             <property name="targetProject" value="../Mybatis-Chapter9-GeneratorPlugin/src/main/java"/>
             <property name="targetPackage" value="com.dfz.mybatis.dao"/>
         </plugin>
+        <!-- 自定义方法 -->
         <plugin type="com.dfz.plugin.SerializablePlugin"/>
 
         <!-- 为了防止生成的代码中有很多注释，比较难看，加入下面的配置控制 -->

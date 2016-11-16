@@ -20,14 +20,13 @@ import java.util.List;
  */
 public class TestGenerator {
 
-    private SqlSessionFactory sqlSessionFactory;
     private File configFile;
 
     @Before
     public void before() {
         //读取mybatis参数
         configFile = new File("/Users/zhangsiyuan/Documents/MybatisFun/Mybatis-Chapter9-GeneratorPlugin/src/main/resources/generatorConfig.xml");
-        //建立session factory
+
 //        configFile = new File("/Users/zhangsiyuan/Documents/MybatisFun/Mybatis-Chapter9-GeneratorPlugin/src/main/resources/mybatisConfig.xml");
     }
 
